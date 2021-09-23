@@ -1,0 +1,95 @@
+.rightSection {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* background-color: lightgray; */
+    width: 350px;
+    
+}
+
+.rightSection h2 {
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.rightSection .greeting {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.formLabel{
+    margin-bottom: 5px;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 5px;
+    margin-bottom: 10px;
+}
+
+.formInput input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+/* mid section */
+
+.mid{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid .checkbox{
+    display: flex;
+    font-size: 12px;
+}
+
+.mid a,Link{
+    display: flex;
+    font-size: 12px;
+    text-decoration: none;
+    justify-content: right;
+    margin-bottom: 5px;
+}
+
+
+.loginBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+button{
+    background-color: #61acb3;
+    padding: 7px 150px;
+    border-radius: 20px;
+    border:none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.footer a{
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.errorMsg{
+    font-size: 12px;
+    color: coral;
+}
