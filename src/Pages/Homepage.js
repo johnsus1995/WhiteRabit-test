@@ -33,7 +33,7 @@ function Homepage(props) {
             </div>
             <ul>
                 {data && data.map((item, index) => (
-                    <li>{item.user.name.first + " " + item.user.name.last}</li>
+                    <li key={index}>{item.user.name.first + " " + item.user.name.last}</li>
                 ))}
             </ul>
         </div>

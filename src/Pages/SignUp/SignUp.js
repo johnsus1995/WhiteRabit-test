@@ -53,21 +53,9 @@ function SignUp(props) {
         phone: null,
     });
 
-
-    const regUser = (e) => {
-        const target = e.target
-        // console.log(target)
-        const name = target.name;
-
-        setUser({
-           ...user,[name]:target.value
-        })
-    }
-
-
     const submitHandler = (e) => {
         e.preventDefault()
-        props.RegisterAction();
+        props.RegisterAction(user);
         
     }
 

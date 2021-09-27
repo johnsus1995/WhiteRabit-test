@@ -23,6 +23,14 @@ export const getRegFailure = (error) => {
 
 export const RegisterAction = (payLoad) => {
     return (dispatch) => {
-        console.log("hi");
+        dispatch(getRegStatus());
+        console.log(payLoad)
+        // try {
+        //     dispatch(getRegSuccess(payLoad))
+        // }
+        // catch {
+        //     dispatch(getRegFailure())
+        // }
+        dispatch(getRegSuccess(payLoad))
     }
 }

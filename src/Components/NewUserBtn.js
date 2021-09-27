@@ -4,6 +4,7 @@ function NewUser() {
     return (
         <div>
             <button style={{padding:"7px"}}>Create User</button>
+            
         </div>
     )
 }
